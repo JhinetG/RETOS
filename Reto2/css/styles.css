@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    border: 0;
+}
+/* PARTE 1*/
+.img{
+    display: flex;
+    width: 20%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+}
+h4{
+    text-align: center;
+}
+.borde{
+    width: 20%;
+    height: 20%;
+    border: 2px solid red;
+   
+}
+/* PARTE 2 */
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: beige;
+} 
+.stikers{
+    display: flex;
+}
+.container input{
+    margin: 2px solid black ;
+}
+/* PARTE 3*/
+.tittle{
+    display: flex;
+    justify-content: center;
+}
+.select{
+    display: flex; 
+}
+   
